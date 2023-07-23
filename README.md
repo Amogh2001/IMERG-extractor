@@ -9,5 +9,7 @@ rain_data01 = np.array(rain_data.r_imerg_arr)
 rain_arr = np.array(rain_data01)
 
 'Year_IMERG_2001' is the IMERG file
+
 month_imerg_getter() is a function that returns the monthly rain
+
 r_imerg_arr stores this data
