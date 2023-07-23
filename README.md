@@ -8,7 +8,7 @@ rain_data.month_imerg_getter()
 rain_data01 = np.array(rain_data.r_imerg_arr)
 rain_arr = np.array(rain_data01)
 
-where,
+where
 
 'Year_IMERG_2001' is the IMERG file
 
