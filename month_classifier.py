@@ -72,7 +72,7 @@ class Rainfall_Year:
             self.r_imerg_arr = np.append(self.r_imerg_arr, self.r_daily_mean)        
             
     
-    def daily_mean(self):   #Depreciated function, use monthly_mean
+    def daily_mean(self):   #Deprecated function, use monthly_mean
         for i in range(1,31):
             self.day_mean = xr.DataArray(np.array(self.daily_rainfall[i])) 
             self.sum_day = sum(self.day_mean)
